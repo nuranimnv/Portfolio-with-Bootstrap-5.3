@@ -1,0 +1,175 @@
+nav {
+  border-bottom: 2px solid gray;
+}
+body{
+  background-color: #ededed;
+}
+.brd {
+  padding: 1rem;
+  border: 2px solid gray;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.container {
+  margin-top: 1rem;
+}
+.border{
+  padding: 1rem;
+}
+.about {
+  display: flex;
+  justify-content: center;
+}
+.about_primary{
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
+.about_primary img {
+  float: left;
+  height: 220px;
+  margin-right: 1rem;
+}
+.col-lg-4{
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+.about_secondary{
+  color: #039a92;
+}
+.about_secondary-box {
+  display: flex;
+  justify-content: space-around;
+}
+.about_secondary-box img {
+  max-width: 70px;
+  margin-top: 10px;
+}
+.portfolio_primary{
+  background-color: #fff;
+}
+.portfolio_primary-box-item img {
+  width: 100%;
+}
+.col-lg-8 {
+  margin-top: 2rem;
+}
+.col-lg-4 {
+  margin-top: 2rem;
+  height: 250px;
+}
+.about_primary {
+  font-weight: 500;
+  padding: 3rem;
+}
+.about_primary h2 {
+  font-weight: 700;
+  color: #039a92;
+}
+.footer_lent {
+  background-color: #039a92;
+  height: 1rem;
+  width: 100%;
+}
+.footer_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 10vh;
+  background: gray;
+}
+.portfolio_primary-box-item {
+  position: relative;
+  overflow: hidden;
+}
+.content_title {
+  position: absolute;
+  overflow: hidden;
+  height: 2rem;
+  background-color: #039a92;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  left: 0;
+  bottom: 2rem;
+  width: 100%;
+}
+
+.contact_content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: #039a92;
+  padding: 1rem 2rem;
+}
+.contact_content {
+  
+  border-radius: 10px;
+  padding: 2rem 2rem;
+  width: 65%;
+  background: #fff;
+}
+.contact_box{
+  background-color: white;
+  margin-bottom: 4rem;
+}
+
+.contact_content img {
+  padding: 1rem;
+  height: 300px;
+  float: left;
+}
+.contact_content p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #7e7e7e;
+  padding: 1rem;
+}
+.contact_contact {
+  margin-left: 2rem;
+  max-height: 25vh;
+  padding: 2rem 2rem;
+  width: 25%;
+  background: #fff;
+}
+.contact_titlestyle {
+  font-size: 20px;
+  font-weight: 770;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+form input,
+textarea {
+  border: 1px solid black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  height: 2rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+}
+.submit_Btn {
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  background-color: #039a92;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  height: 50px;
+}
